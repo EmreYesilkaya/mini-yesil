@@ -49,7 +49,7 @@ header {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('img/header.jpg');
+    background-image: url('/mini-yesil/img/header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
