@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mini Yeşil, taze ve sürdürülebilir mikrofilizleri sofranıza getiriyor.">
+    <meta name="keywords" content="mikrofilizler, sürdürülebilir tarım, organik ürünler, Mini Yeşil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikrofilizlerimiz - Mini Yeşil</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-white shadow-sm fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-green-600 flex items-center">
+                    <span class="text-3xl mr-2">🌱</span>
+                    Mini Yeşil
+                </a>
+                <nav class="hidden md:flex space-x-4">
+                    <a href="index.html" class="nav-link">Ana Sayfa</a>
+                    <a href="products.html" class="nav-link">Mikrofilizlerimiz</a>
+                    <a href="about.html" class="nav-link">Hakkımızda</a>
+                    <a href="process.html" class="nav-link">Nasıl Çalışır</a>
+                    <a href="contact.html" class="nav-link">İletişim</a>
+                </nav>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4">
+            <a href="index.html" class="block py-2 text-green-600">Ana Sayfa</a>
+            <a href="products.html" class="block py-2 text-green-600">Mikrofilizlerimiz</a>
+            <a href="about.html" class="block py-2 text-green-600">Hakkımızda</a>
+            <a href="process.html" class="block py-2 text-green-600">Nasıl Çalışır</a>
+            <a href="contact.html" class="block py-2 text-green-600">İletişim</a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section class="py-16 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl font-bold text-center mb-12">Mikrofilizlerimiz</h1>
+                <p class="text-center mb-12 max-w-2xl mx-auto">Taze, besleyici ve lezzetli mikrofilizlerimizle tanışın. Her biri özenle yetiştirilmiş, vitamin ve mineral açısından zengin bu minik süper gıdalar, sağlıklı yaşamınıza katkı sağlamak için burada.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="product-card">
+                        <img src="img\heap-beet-micro-greens-table.jpg" alt="Chia Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Chia Mikrofilizleri</h3>
+                            <p class="mb-4">Omega-3 yağ asitleri, protein ve antioksidanlar açısından zengin. Hafif ve ferah bir tada sahip.</p>
+                            <ul class="mb-4">
+                                <li>✅ Yüksek protein içeriği</li>
+                                <li>✅ Omega-3 kaynağı</li>
+                                <li>✅ Kalsiyum açısından zengin</li>
+                            </ul>
+                            <a href="#" class="btn-primary">Satın Al</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="img\radish.jpeg" alt="Turp Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Turp Mikrofilizleri</h3>
+                            <p class="mb-4">Hafif acımsı ve baharatlı lezzetiyle salatalara canlılık katar. C vitamini ve lifle dolu.</p>
+                            <ul class="mb-4">
+                                <li>✅ Yüksek C vitamini içeriği</li>
+                                <li>✅ Sindirime yardımcı</li>
+                                <li>✅ Antioksidan özellikler</li>
+                            </ul>
+                            <a href="#" class="btn-primary">Satın Al</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="img\lahana.webp" alt="Kara Lahana Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Kara Lahana Mikrofilizleri</h3>
+                            <p class="mb-4">A, C ve K vitaminleri açısından zengin. Güçlü antioksidan özelliklere sahip.</p>
+                            <ul class="mb-4">
+                                <li>✅ A ve K vitamini deposu</li>
+                                <li>✅ Güçlü antioksidan</li>
+                                <li>✅ Kemik sağlığına destek</li>
+                            </ul>
+                            <a href="#" class="btn-primary">Satın Al</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="img\brocoli.webp" alt="Brokoli Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Brokoli Mikrofilizleri</h3>
+                            <p class="mb-4">Sülforan açısından zengin, kanserle savaşan bileşikler içerir. Hafif ve lezzetli.</p>
+                            <ul class="mb-4">
+                                <li>✅ Yüksek sülforan içeriği</li>
+                                <li>✅ Kanser önleyici özellikler</li>
+                                <li>✅ Detoks etkisi</li>
+                            </ul>
+                            <a href="#" class="btn-primary">Satın Al</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="img\fasulye.jpg" alt="Maş Fasulyesi Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Maş Fasulyesi Mikrofilizleri</h3>
+                            <p class="mb-4">Protein, demir ve B vitaminleri açısından zengin. Tatlı ve yumuşak bir lezzete sahip.</p>
+                            <ul class="mb-4">
+                                <li>✅ Yüksek protein içeriği</li>
+                                <li>✅ Demir kaynağı</li>
+                                <li>✅ B vitamini kompleksi</li>
+                            </ul>
+                            <a href="#" class="btn-primary">Satın Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Neden Mini Yeşil Mikrofilizleri?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-4">%100 Organik</h3>
+                        <p>Tüm mikrofilizlerimiz, tamamen organik koşullarda yetiştirilir. Pestisit ve kimyasal gübre kullanmıyoruz.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-4">Yüksek Besin Değeri</h3>
+                        <p>Mikrofilizler, olgun bitkilerine göre 4-40 kat daha fazla besin içerir. Küçük porsiyonlarla büyük fayda sağlayın.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-4">Taze Teslimat</h3>
+                        <p>Siparişiniz üzerine hasat edilen mikrofilizlerimiz, maksimum tazelik ve besin değeri için hızla evinize ulaştırılır.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-16 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-8">Kendi Mikrofiliz Karışımınızı Oluşturun</h2>
+                <p class="mb-8">Farklı mikrofilizleri bir araya getirerek kendi özel karışımınızı oluşturabilirsiniz. Size özel bir lezzet ve besin kombinasyonu yaratın!</p>
+                <a href="contact.html" class="btn-secondary">Özel Karışım Oluştur</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-green-600 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-2xl font-bold">Mini Yeşil</h3>
+                    <p>Daha sağlıklı bir siz için taze mikrofilizler</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm">
+                © 2024 Mini Yeşil. Tüm hakları saklıdır.
+            </div>
+        </div>
+    </footer>
+
+    <div class="eco-friendly-badge">
+        🌿 %100 Ekolojik Üretim
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

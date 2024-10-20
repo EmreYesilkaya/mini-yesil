@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mini Yeşil, taze ve sürdürülebilir mikrofilizleri sofranıza getiriyor.">
+    <meta name="keywords" content="mikrofilizler, sürdürülebilir tarım, organik ürünler, Mini Yeşil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Yeşil - Taze Mikrofilizler</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-white shadow-sm fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-green-600 flex items-center">
+                    <span class="text-3xl mr-2">🌱</span>
+                    Mini Yeşil
+                </a>
+                <nav class="hidden md:flex space-x-4">
+                    <a href="index.html" class="nav-link">Ana Sayfa</a>
+                    <a href="products.html" class="nav-link">Mikrofilizlerimiz</a>
+                    <a href="about.html" class="nav-link">Hakkımızda</a>
+                    <a href="process.html" class="nav-link">Nasıl Çalışır</a>
+                    <a href="contact.html" class="nav-link">İletişim</a>
+                </nav>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4">
+            <a href="index.html" class="block py-2 text-green-600">Ana Sayfa</a>
+            <a href="products.html" class="block py-2 text-green-600">Mikrofilizlerimiz</a>
+            <a href="about.html" class="block py-2 text-green-600">Hakkımızda</a>
+            <a href="process.html" class="block py-2 text-green-600">Nasıl Çalışır</a>
+            <a href="contact.html" class="block py-2 text-green-600">İletişim</a>
+        </div>
+    </header>
+    
+
+    <main role="main">
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 animate-fade-in">
+                    Daha Sağlıklı Bir Yaşam İçin Mini Yeşiller
+                </h1>
+                <p class="text-xl text-white mb-8 animate-fade-in">
+                    Besin değeri yüksek, sürdürülebilir mikrofilizleri sofranıza getiriyoruz
+                </p>
+                <a href="products.html" class="btn-primary animate-fade-in">Mikrofilizlerimizi Keşfedin</a>
+            </div>
+        </section>
+
+        <section id="featured-products" class="section py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Öne Çıkan Mikrofilizlerimiz</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="product-card">
+                        <img src="img\heap-beet-micro-greens-table.jpg" alt="" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Chia Mikrofilizleri</h3>
+                            <p class="mb-4">Omega-3 yağ asitleri ve antioksidanlar açısından zengin.</p>
+                            <a href="products.html#chia" class="btn-secondary mt-4">Daha Fazla Bilgi</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="img\radish.jpeg" alt="Turp Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Turp Mikrofilizleri</h3>
+                            <p class="mb-4">Baharatlı tat, C vitamini ve lif açısından zengin.</p>
+                            <a href="products.html#radish" class="btn-secondary mt-4">Daha Fazla Bilgi</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="img\lahana.webp" alt="Kara Lahana Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Kara Lahana Mikrofilizleri</h3>
+                            <p class="mb-4">A, C ve K vitaminleri açısından zengin, güçlü antioksidan.</p>
+                            <a href="products.html#kale" class="btn-secondary mt-4">Daha Fazla Bilgi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="section py-16 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Mikrofilizlerin Faydaları</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-2">Kalp Sağlığı</h3>
+                        <p>Antioksidanlar ve kalp sağlığı için faydalı besinler açısından zengin.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-2">Beyin Fonksiyonu</h3>
+                        <p>Bilişsel sağlığı ve zihinsel netliği destekler.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-2">Bağışıklık Desteği</h3>
+                        <p>Bağışıklık sistemini güçlendiren vitamin ve minerallerle dolu.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3 class="text-xl font-semibold mb-2">Kilo Yönetimi</h3>
+                        <p>Düşük kalorili, yüksek besin değeri ve lif içerikli.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-products" class="section py-16 bg-white">
+
+
+            
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Tüm Mikrofilizlerimiz</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    <div class="product-card">
+                        <img src="img\heap-beet-micro-greens-table.jpg" alt="Chia Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Chia Mikrofilizleri</h3>
+                            <p>Omega-3 yağ asitleri ve antioksidanlar açısından zengin.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="img\radish.jpeg" alt="Turp Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Turp Mikrofilizleri</h3>
+                            <p>Baharatlı tat, C vitamini ve lif açısından zengin.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="img\lahana.webp" alt="Kara Lahana Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Kara Lahana Mikrofilizleri</h3>
+                            <p>A, C ve K vitaminleri açısından zengin, güçlü antioksidan.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="img\brocoli.webp" alt="Brokoli Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Brokoli Mikrofilizleri</h3>
+                            <p>Sülforan açısından zengin, kanserle savaşan bileşikler içerir.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="img\fasulye.jpg" alt="Maş Fasulyesi Mikrofilizleri" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2">Maş Fasulyesi Mikrofilizleri</h3>
+                            <p>Protein, demir ve B vitaminleri açısından zengin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section py-16 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Müşterilerimiz Ne Diyor?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="testimonial">
+                        <p class="mb-4">"Mini Yeşil'in mikrofilizleri hayatımı değiştirdi! Artık her öğünümde taze ve besleyici yeşillikler yiyorum."</p>
+                        <p class="testimonial-author">- Ayşe Y.</p>
+                    </div>
+                    <div class="testimonial">
+                        <p class="mb-4">"Turp mikrofilizleri favorim! Salatalara harika bir lezzet katıyor ve sağlığım için de çok faydalı."</p>
+                        <p class="testimonial-author">- Mehmet K.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="section py-16 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-8">Bültenimize Abone Olun</h2>
+                <p class="mb-8">En yeni ürünlerimiz, tarifler ve sağlık ipuçları hakkında bilgi alın!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="E-posta adresiniz" class="newsletter-input" required>
+                    <button type="submit" class="newsletter-button">Abone Ol</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-green-600 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-2xl font-bold">Mini Yeşil</h3>
+                    <p>Daha sağlıklı bir siz için taze mikrofilizler</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm">
+                © 2024 Mini Yeşil. Tüm hakları saklıdır.
+            </div>
+        </div>
+    </footer>
+
+    <div class="eco-friendly-badge">
+        🌿 %100 Ekolojik Üretim
+    </div>
+
+    <div id="delayed-modal" class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-500 z-50">
+        <div class="bg-white rounded-lg shadow-2xl relative max-w-md w-full transform scale-95 transition-all duration-500 ease-in-out overflow-hidden">
+            <button id="close-delayed-modal" class="absolute top-3 right-3 text-gray-500 hover:text-red-500 text-2xl">&times;</button>
+            <div class="bg-green-600 p-6 text-white">
+                <h2 class="text-2xl font-bold mb-2">Taze Mikrofilizler!</h2>
+                <p class="text-lg">Restoranınız veya marketiniz için özel çözümler</p>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700 mb-4">Müşterilerinize en taze ve besleyici mikrofilizleri sunun. Rekabette öne çıkın!</p>
+                <div class="flex items-center space-x-4 mb-4">
+                    <img src="img\logo.jpeg" alt="Mikrofiliz" class="w-20 h-20 rounded-full object-cover">
+                    <div>
+                        <h3 class="font-semibold text-green-600">Toptan Mikrofiliz Tedariki</h3>
+                        <p class="text-sm text-gray-600">Özelleştirilmiş çözümler ve düzenli teslimat</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">Sizinle iletişime geçelim ve işletmeniz için en uygun mikrofiliz çözümünü birlikte belirleyelim.</p>
+                <a href="contact.html" class="btn-primary w-full text-center">Hemen İletişime Geçin</a>
+                <p class="text-xs text-gray-500 text-center mt-4">Ücretsiz danışmanlık hizmetimizden yararlanın!</p>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
