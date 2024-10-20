@@ -49,9 +49,10 @@ header {
 
 /* Hero Section */
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img\header.jpg);
+    background-image: url('img/header.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -59,12 +60,24 @@ header {
     position: relative;
 }
 
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Koyu bir overlay ekler */
+    z-index: 1;
+}
 
 .hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
     text-align: center;
-    max-width: 800px;
     padding: 2rem;
-    border-radius: 10px;
+    max-width: 800px; /* İçeriğin maksimum genişliğini sınırlar */
 }
 
 .hero-section h1 {
